@@ -1,0 +1,18 @@
+.posts{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .post{
+        width: 26%;
+        height: 150px;
+        margin: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding-left: 10px;
+        justify-content: space-around;
+        box-shadow: #5E5DF0 0 10px 20px -10px;
+        background: linear-gradient(to bottom, #F0E0CD, #9F9385); 
+
+    }
+}
