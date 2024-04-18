@@ -35,3 +35,12 @@
         }
     }
 }
+@media (max-width: 600px){
+    .images{
+        justify-content: center;
+
+        .image{
+            width: 100%;
+        }
+    }
+}

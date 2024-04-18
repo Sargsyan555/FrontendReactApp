@@ -18,3 +18,12 @@
         }
     }
 }
+@media (max-width: 600px){
+    .comments{
+        justify-content: center;
+
+        .comment{
+            width: 100%;
+        }
+    }
+}

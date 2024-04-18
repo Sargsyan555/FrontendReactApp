@@ -15,4 +15,14 @@
         background: linear-gradient(to bottom, #F0E0CD, #9F9385); 
 
     }
+   
+}
+@media (max-width: 600px){
+        .posts{
+            justify-content: center;
+
+            .post{
+                width: 100%;
+            }
+        }
 }

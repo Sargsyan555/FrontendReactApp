@@ -84,7 +84,7 @@ export default function Login_Registration() {
                     <input onChange={(event)=>setFormData({...formData, password: event.target.value})} type="text" id='password'/>
                 </div>
                 <div className='buttons'>
-                    <button onClick={() => handleClose()}>cancl</button>
+                    <button>cancel</button>
                     <button>login</button>
                 </div>
             </form>
